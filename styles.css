@@ -26,7 +26,7 @@ main{position:relative;z-index:1}
 .portrait-outline{width:min(430px,95%);aspect-ratio:1;overflow:visible;border-radius:50%;background:radial-gradient(circle at 50% 20%,rgba(30,230,205,.22),transparent 38%),radial-gradient(circle at 50% 50%,#11202a 0,#08131a 72%);border:1px solid #2e6c78;box-shadow:0 20px 100px rgba(3,10,12,.43),inset 0 0 55px rgba(1,209,185,.09)}
 .portrait-outline:before{inset:18px;border-radius:50%;border:1px dashed #2d5960}
 .portrait-dots{display:none}
-.portrait-outline img{width:104%;height:104%;bottom:-3%;object-position:center bottom}
+.portrait-outline img{width:104%;height:104%;bottom:0%;object-position:center bottom; border-radius:100%}
 .tech-badge{position:absolute;z-index:4;width:72px;height:72px;display:grid;place-items:center;border-radius:20px;background:linear-gradient(145deg,#0f2028,#0a141b);border:1px solid #2b6571;box-shadow:0 18px 38px rgba(0,0,0,.36), inset 0 0 0 1px rgba(83,196,220,.06);animation:float 4.2s ease-in-out infinite}
 .tech-badge img{width:44px;height:44px;display:block}
 .tech-python{top:10%;left:0%}
